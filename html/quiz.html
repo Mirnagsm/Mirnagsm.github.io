@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>-EducArte. QUIZ-</title>
+    <link rel="stylesheet" href="./css/style2.css">
+    <link rel="shortcut icon" href="./imágenes y recursos/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+
+
+</head>
+<body>
+
+    <div class="start_btn"><button>¿Estás preparad@? <br> -COMENZAR QUIZ.-</button></div>
+
+    <div class="info___box">
+        <div class="info___tittle">
+            <span>¿Qué es lo que debes saber antes de comenzar? <br></span>
+
+            </div>
+            <div class="info___list">
+                <div class="info">1) Contarás con <span>5 minutos</span> para completar este quiz de <span>20 preguntas.</span></div>
+                <br>
+                <div class="info">2) Se guardará tu nombre, tu apellido y tu grado de estudio.</div>
+                <br>
+                <div class="info">3) Al final del quiz, se mostrará tu puntaje y el puntaje de los demás participantes en un ranking.</div>
+                <br>
+                
+        </div>
+        <div class="buttons">
+            <button class="quit">Volver</button>
+            <button class="next">Continuar</button>
+        </div>
+    </div>
+
+    <div class="timer___box">
+        <header>
+            <div class="tittle">EducArte - Quiz</div>
+            <div class="timer_time">
+                    <div class="time___text">Tiempo total:</div>
+                    <div class="timer___min">15</div>
+
+            </div>
+            <div class="time_line"></div>
+        </header>
+    </div>
+        
+    <div class="quiz___box">
+        <section>
+            <div class="que___text">
+                <!-- <spam>1) ¿Cuál de los siguientes autores es venezolano?</spam> -->
+            </div>
+            <div class="option___list">
+                <div class="option">
+                    <span>a) Isabel Allende.</span>
+                    <div class="icon incorrecta"></div>
+                </div>
+                <div class="option">
+                    <span>b) Jorge Luis Borges.</span>
+                    <div class="icon incorrecta"></div>
+                </div>
+                <div class="option">
+                    <span>c) Arturo Uslar Prieto.</span>
+                    <div class="icon incorrecta"></div>
+                </div>
+                <div class="option">
+                    <span>d) Rómulo Gallegos.</span>
+                    <div class="icon correcta"></div>
+
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="total___ques">
+                <span><p>1</p>de<p>20</p>Preguntas</span>
+            </div>
+            <button class="next___btn">Siguiente</button>
+        </footer>
+
+    </div>
+
+    <div class="result___box">
+        <div class="icon">
+            <img src="./imágenes y recursos/medalla de ranking d.png" class="oro">
+            <img src="./imágenes y recursos/medalla de ranking p.png" class="plata">
+        </div>
+        <div class="complete___text">¡Felicidades por completar el quiz!. <br></div>
+        <h3 class="resultado">Tu puntaje: <p>2</p> de <p>20</p> puntos</h3>
+        <div class="buttons">
+            <button class="recomendaciones">Recomendaciones</button>
+            <button class="quit">Inicio</button> 
+        </div>
+    </div>
+
+    <script src="javascript/preguntas.js"></script>
+    <script src="javascript/script_quiz.js"></script>
+
+</body>
+</html>
